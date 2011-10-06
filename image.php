@@ -1,7 +1,7 @@
 <?php
       /* 
       Plugin Name: Hit Counter
-      Description: Displays a hit counter on your wordpress site. Many styles to choose from.
+      Description: Displays a professional hit counter on your wordpress or buddypress site. Up to 200 different layouts to choose!
       Version: 1.0
       Author: Jimisjoss
 

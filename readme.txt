@@ -1,5 +1,6 @@
 === Hit Counter ===
 Contributors: Jimisjoss
+Author: Jimis Joss
 Tags: counter,hit counter,stats,hits,odometer,web counter,tracking,pageviews,widget,plugin,visit,statistics,visits,widget,image,post,plugin,posts,admin,sidebar,comments,images,twitter,page,google,links,wordpress,buddypress
 Requires at least: 2.0.0
 Tested up to: 3.2.1
@@ -9,16 +10,16 @@ Displays a hit counter on your wordpress site. Many styles to choose from.
 
 == Description ==
 
-Embed a rotating counter in your wordpress blog and shows the number of visits your website has
+Embed a rotating counter in your wordpress blog and shows the number of visits your website has.
 
-By default the web counter will be displayed in your footer, to change the location of the counter simply navigate
--> Widgets -> drag and drop the hit counter button anywhere on your site.
+By default the web counter will be displayed in your footer, to change the location of the counter simply navigate.
+Widgets -> Drag and drop the hit counter button anywhere on your site.
 
 To disable the web counter from showing at the footer simply navigate to,
--> Settings -> Hit Counter Ultimate and uncheck the box 'Show in footer'
+Settings -> Hit Counter and uncheck the box 'Show in footer'
 
 To change the layout of the hit counter go to,
--> Settings -> Hit Counter Ultimate and change to any style you wish.
+Settings -> Hit Counter and change to any style you wish.
 
 == Installation ==
 
