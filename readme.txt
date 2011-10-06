@@ -4,7 +4,7 @@ Author: Jimis Joss
 Tags: counter,hit counter,stats,hits,odometer,web counter,tracking,pageviews,widget,plugin,visit,statistics,visits,widget,image,post,plugin,posts,admin,sidebar,comments,images,twitter,page,google,links,wordpress,buddypress
 Requires at least: 2.0.0
 Tested up to: 3.2.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 Displays a professional Hit Counter on your wordpress site. Many different layouts to choose.
 

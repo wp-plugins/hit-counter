@@ -2,7 +2,7 @@
       /* 
       Plugin Name: Hit Counter
       Description: Displays a professional hit counter on your wordpress or buddypress website. Up to 200 different layouts to choose!
-      Version: 1.0
+      Version: 1.1
       Author: Jimisjoss
 
         This program is free software; you can redistribute it and/or modify
@@ -203,7 +203,7 @@ fwrite($fh, $stringData);
 fclose($fh);
       }      
 }
-if ( $stringData > "6" ) {
+if ( $stringData > "100" ) {
 function hitcounterplugin(){
 $myFile = HC_PLUGIN_BASE_DIR . '/hit-counter/css/widget.txt';
 $fh = fopen($myFile, 'r');
