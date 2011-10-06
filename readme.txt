@@ -9,7 +9,7 @@ Displays a hit counter on your wordpress site. Many styles to choose from.
 
 == Description ==
 
-Embed a rotating counter in your wordpress blog and shows the number of visits your website has.
+Embed a rotating counter in your wordpress blog and shows the number of visits your website has
 
 By default the web counter will be displayed in your footer, to change the location of the counter simply navigate
 -> Widgets -> drag and drop the hit counter button anywhere on your site.
