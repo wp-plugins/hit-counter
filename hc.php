@@ -1,8 +1,8 @@
 <?php
       /* 
       Plugin Name: Hit Counter
-      Description: Displays a professional hit counter on your wordpress or buddypress website. Up to 200 different layouts to choose!
-      Version: 1.1
+      Description: This plugin is no longer supported. Please use another
+      Version: 1.2
       Author: Jimisjoss
 
         This program is free software; you can redistribute it and/or modify
