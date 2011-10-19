@@ -1,6 +1,0 @@
-widgeta
-widgetb
-widgetc
-widgetd
-widgete
-widgeta
